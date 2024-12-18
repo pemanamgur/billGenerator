@@ -1,0 +1,37 @@
+.bill-container{
+    background-color: antiquewhite;
+    width: 500px;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    border-radius: 2px ;
+    /* position: relative; */
+}
+
+.top-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.top-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.c-name{
+    position: relative;
+    top: 23px;
+}
+.bottom-container{
+    display: flex;
+    justify-content: center;
+}
+table , tr , td{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
